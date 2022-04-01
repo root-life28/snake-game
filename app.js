@@ -23,8 +23,8 @@ function update()
 {
     snakeUpdate()
 }
-function draw()
-{
+function draw(){
+    
     gameBoard.innerHTML=""
     snakeDraw(gameBoard)
 }

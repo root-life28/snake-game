@@ -3,7 +3,7 @@ import { getDirection } from "./snakeDirection.js";
 
 let newSegments=0
 
-const snakeBody=[
+export const snakeBody=[
     {x:16,y:16}
 ]
 

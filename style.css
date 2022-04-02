@@ -5,25 +5,32 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: black;
 }
 
 #game-board {
-  background-color: #ccc;
-  width: 100vmin;
-  height: 100vmin;
+  background-color: rgb(44, 43, 43);
+  width: 90vmin;
+  height: 90vmin;
   display: grid;
   grid-template-rows: repeat(31, 1fr);
   grid-template-columns: repeat(31, 1fr);
 }
 
 .snake {
-  background-color: hsl(200, 100%, 50%);
+  background-color: hsl(270, 91%, 48%);
   border: 0.25vmin solid black;
+  border-radius: 25%;
 }
 
 .food {
-  background-color: hsl(50, 100%, 50%);
+  background-color: hsl(111, 65%, 39%);
   border: 0.25vmin solid black;
- 
+  border-radius: 25%;
+}
+
+.score {
+  color: rgb(228, 8, 8);
+  margin-right: 20px;
+  font-size: 20px;
+  flex-direction: column;
 }
